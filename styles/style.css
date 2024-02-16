@@ -76,7 +76,7 @@ nav {
 
 .links:hover img{
     transform: scale(1.1);
-    transition: tranform 0.3s ea;
+    transition: transform 0.5s ease-in-out;
 }
 
 .links div {
