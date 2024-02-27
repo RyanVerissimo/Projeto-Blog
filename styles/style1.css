@@ -5,7 +5,7 @@ header {
 
     background-color: #c4170c;
     color: #fff;
-    padding: 10px 0;
+    padding: 10px 4%;
 
 }
 
@@ -39,6 +39,7 @@ header .search {
 header .search input {
     border: none;
     outline: none;
+    width: 30%;
 }
 
 header .search a {
@@ -73,6 +74,7 @@ main {
 
 .container-links {
     width: 100%;
+    max-width: 100%;
 }
 
 .container-links .container-links-contact ul{
@@ -82,10 +84,14 @@ main {
     list-style: none;
 }
 
+.container-links .container-links-contact ul li {
+    width: 100%;
+}
+
 .container-links .container-links-contact ul li a{
     background-color: #f5f6f7;
     border-radius: 9999px;
-    padding: 20px 100px 5px;
+    padding: 10% 35% 5%;
     transition: 0.3s;
 }
 
@@ -169,4 +175,15 @@ footer p {
     text-align: center;
     color: #fff;
     padding: 30px;
+}
+
+@media (max-width: 487px) {
+
+    header .search {
+        display: none;
+    }
+
+    h1 {
+        font-size: 1.4rem;
+    }
 }

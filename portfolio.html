@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="./images/programming.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="menu.js" defer></script>
+    <title>Portfólio - RVO</title>
+</head>
+
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo" data-aos="flip-up" data-aos-delay="300" data-aos-duration="1500">
+                <a href="#">
+                    <img src="./images/logo.png" alt="Logotipo Portfólio RVO">
+                </a>
+            </div>
+
+            <nav class="menu-desktop" data-aos="fade-down">
+                <ul>
+                    <li><a href="#topo-do-site">Início</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato" data-aos="fade-down">
+                <a href="#formulario">
+                    <button>Contato</button>
+                </a>
+            </div><!--btn-contato-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#topo-do-site">Início</a></li>
+                        <li><a href="#especialidades">Especialidades</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#formulario">Contato</a></li>
+                    </ul>
+                </nav>
+            </div> <!--menu-mobile-->
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div> <!--Interface-->
+    </header>
+
+    <main>
+        <section id="topo-do-site" class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site" data-aos="zoom-out-right" data-aos-delay="250">
+                        <h1>TRANSFORMANDO IDEIAS EM REALIDADE DIGITAL<span>.</span></h1>
+                        <p>Imaginação e novidade caminham juntas. Com uma fusão singular de design marcante,
+                            funcionalidade intuitiva e maximização para resultados, estou preparado para elaborar a
+                            presença virtual dos seus desejos.</p>
+                        <div class="btn-contato">
+                            <a href="#formulario">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="img-topo-site" data-aos="zoom-in" data-aos-delay="100">
+                        <img src="./images/RyanOliveira.png" alt="Programador Ryan Oliveira">
+                    </div>
+                </div>
+            </div> <!--interface-->
+        </section> <!--topo-do-site-->
+
+        <section id="especialidades" class="especialidades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box" data-aos="fade-up">
+                        <ion-icon name="logo-html5"></ion-icon>
+                        <h3>HTML5</h3>
+                        <p>
+                            HTML (Hypertext Markup Language) é uma linguagem de marcação usada para criar páginas web,
+                            definindo a estrutura e o conteúdo através de tags.</p>
+                    </div> <!--especialidades-box-->
+                    <div class="especialidades-box" data-aos="fade-up">
+                        <ion-icon name="logo-css3"></ion-icon>
+                        <h3>CSS3</h3>
+                        <p>CSS (Cascading Style Sheets) é uma linguagem utilizada para estilizar a apresentação de
+                            documentos HTML, controlando aspectos visuais como cor, fonte e layout das páginas web.</p>
+                    </div> <!--especialidades-box-->
+                    <div class="especialidades-box" data-aos="fade-up">
+                        <ion-icon name="logo-javascript"></ion-icon>
+                        <h3>JavaScript</h3>
+                        <p>JavaScript é uma linguagem de programação que adiciona interatividade às páginas web,
+                            manipulando o conteúdo HTML e respondendo a eventos do usuário.</p>
+                    </div> <!--especialidades-box-->
+                </div> <!--flex-->
+            </div> <!--interface-->
+        </section> <!--especialidades-->
+
+        <section id="sobre" class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="./images/RyanOliveira.png" alt="Programador Ryan Oliveira" data-aos="flip-up"
+                            data-aos-delay="100" data-aos-duration="1000">
+                    </div><!--img-sobre-->
+
+                    <div class="txt-sobre" data-aos="zoom-out-left" data-aos-delay="250">
+                        <h2>MUITO PRAZER, <span>SOU RYAN OLIVEIRA.</span></h2>
+                        <p>Me chamo Ryan Verissimo de Oliveira, sou do Ceará, faço faculdade de ciências da computação
+                            na Estácio Parangaba, e, atualmente, estou iniciando na carreira de Desenvolvedor web,
+                            Front-End.</p>
+                        <p>A escolha do curso foi motivada pela minha imensa paixão em mexer em computadores desde a
+                            infância. Quanto à decisão sobre o caminho a seguir, tudo começou quando cursei a disciplina
+                            de "Desenvolvimento Web" na faculdade. Esse momento foi o ponto de partida para despertar
+                            minha curiosidade no vasto mundo da web. Assim, hoje, busco constantemente aprimorar-me
+                            nesse mercado, em busca de oportunidades.</p>
+                        <div class="btn-social">
+                            <a title="github" target="_blank" href="https://github.com/RyanVerissimo"><button><i
+                                        class="bi bi-github"></i></button></a>
+                            <a title="linkedin" target="_blank"
+                                href="https://www.linkedin.com/in/ryanverissimo/"><button><i
+                                        class="bi bi-linkedin"></i></button></a>
+                            <a title="instagram" target="_blank" href="https://www.instagram.com/ryanveris/"><button><i
+                                        class="bi bi-instagram"></i></button></a>
+                        </div>
+                    </div><!--txt-sobre-->
+                </div><!--flex-->
+            </div><!--Interface-->
+        </section><!--Sobre-->
+
+        <section id="projetos" class="projetos">
+            <div class="interface">
+                <h2 class="titulo">MEUS <span>PROJETOS.</span></h2>
+                <div class="flex">
+                    <a target="_blank" href="https://ryanverissimo.github.io/Ryan-Jazz-School/">
+                        <div class="img-projetos" style="background-image: url(./images/JazzSchool.png);">
+                            <div class="overlay">Projeto 1</div>
+                        </div>
+                    </a>
+                    <a target="_blank" href="https://ryanverissimo.github.io/Projeto-Blog/">
+                        <div class="img-projetos" style="background-image: url(./images/BlogPessoal.png);">
+                            <div class="overlay">Projeto 2</div>
+                        </div>
+                    </a>
+
+                    <a target="_blank" href="https://ryanverissimo.github.io/Projeto-Site-GTA-V/">
+                        <div class="img-projetos" style="background-image: url(./images/layoutGTA.png);">
+                            <div class="overlay">Projeto 3</div>
+                        </div>
+                    </a>
+                </div>
+            </div><!--interface-->
+        </section><!--projetos-->
+
+        <section id="formulario" class="formulario">
+            <div class="interface">
+                <h2 class="titulo">FALA <span>COMIGO.</span></h2>
+
+                <form action="https://formsubmit.co/ryanvm.black@gmail.com" method="POST">
+                    <input type="text" name="nome" id="nome" placeholder="Seu nome completo:" required>
+                    <input type="email" name="email" id="email" placeholder="Seu e-mail:" required>
+                    <input type="number" name="telefone" id="telefone" placeholder="Seu celular:">
+                    <textarea name="texto" id="texto" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="./images/logo.png" alt="Logotipo Portfólio RVO">
+                    </div>
+
+                    <div class="btn-social">
+                        <a title="github" target="_blank" href="https://github.com/RyanVerissimo"><button><i
+                                    class="bi bi-github"></i></button></a>
+                        <a title="linkedin" target="_blank" href="https://www.linkedin.com/in/ryanverissimo/"><button><i
+                                    class="bi bi-linkedin"></i></button></a>
+                        <a title="instagram" target="_blank" href="https://www.instagram.com/ryanveris/"><button><i
+                                    class="bi bi-instagram"></i></button></a>
+                    </div>
+                </div><!--flex-->
+            </div><!--line-footer-->
+
+
+            <div class="line-footer final-border">
+                <p><i class="bi bi-envelope-fill"></i> <a
+                        href="mailto:ryanvm.black@gmail.com">ryanvm.black@gmail.com</a></p>
+            </div><!--line-footer-->
+        </div><!--interface-->
+    </footer>
+
+    <div class="btn-contato">
+        <a href="#" class="btn-voltar">
+            <button><i class="bi bi-arrow-up"></i></button>
+        </a>
+    </div>
+
+    <script src="./script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
